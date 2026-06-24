@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004574-blue)](https://doi.org/10.82901/nemar.on004574)
+
 This experiment includes 146 subjects: 98 individuals with Parkinsons disease, 
 and 48 controls. The data were collected from 2017-2021. Subjects completed this oddball task (along with multiple other cognitive tasks) 
 while EEG was recorded with a 64-channel BrainVision cap. This task includes a primary GO cue,
