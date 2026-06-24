@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Cross-modal Oddball Task.",
+  "description": "A cross-modal oddball task dataset comprising EEG recordings from 146 participants (98 with Parkinson's disease, 48 controls) collected between 2017-2021. Participants performed a directional response task cued by visual arrows, preceded by synchronized visual and auditory pre-cues that varied between standard and oddball conditions. The dataset includes 64-channel EEG recordings and enables investigation of multimodal sensory processing and cognitive control mechanisms in both healthy and Parkinson's disease populations.",
+  "methods_description": "EEG data were recorded using a 64-channel BrainVision cap during a cross-modal oddball task. Each trial consisted of visual and auditory pre-cues presented simultaneously 500ms before a primary visual GO cue (white arrow) requiring directional response. Pre-cue conditions included both standard, oddball visual, or oddball auditory variants.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,27 @@
     "Jim Cavanagh jcavanagh@unm.edu": {},
     "Nandakumar Narayanan nandakumar-narayanan@uiowa.edu": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004574.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "oddball task"
+    },
+    {
+      "term": "cross-modal processing"
+    },
+    {
+      "term": "Parkinson's disease"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "cognitive control"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1101/2022.07.26.22278079",
       "identifier_type": "DOI",
@@ -32,6 +49,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004574",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004574.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -54,13 +76,13 @@
       "award_number": "F32AG069445-01"
     }
   ],
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "14.5 GB (296 files)"
   ],
   "formats": [
     ".fdt",
@@ -68,35 +90,8 @@
     ".m",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "A cross-modal oddball task dataset comprising 146 subjects (98 with Parkinson's disease, 48 controls) collected between 2017-2021. Participants performed a directional response task cued by visual arrows, preceded by synchronized visual and auditory pre-cues that varied between standard and oddball conditions. Analysis focused on trials with both pre-cues standard or oddball auditory pre-cue. Continuous 64-channel EEG was recorded throughout the experiment to investigate neural responses to cross-modal stimulus integration and oddball detection in the context of neurodegenerative disease.",
-  "methods_description": "EEG data were acquired using a 64-channel BrainVision cap during a cross-modal oddball task. Each trial consisted of visual and auditory pre-cues presented simultaneously 500ms before a primary visual GO cue (white arrow) requiring a directional motor response. Pre-cue conditions included both standard, oddball visual, or oddball auditory variants. Analysis focused on trials with both pre-cues standard or with oddball auditory pre-cue. Data collection occurred from 2017-2021.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "oddball task"
-    },
-    {
-      "term": "cross-modal integration"
-    },
-    {
-      "term": "Parkinson's disease"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "motor response"
-    },
-    {
-      "term": "neurodegenerative disease"
-    },
-    {
-      "term": "motor control"
-    }
-  ],
-  "source_hash": "3ae72f201dca2668f4ba480adbbe0234ceaf80419113ea00ad03915c89c48c68"
+  "source_hash": "a109a920efed2ac86e61738bab4185a6c454d395896321c365db5d1c108b08dd"
 }
