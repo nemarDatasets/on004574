@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Cross-modal Oddball Task.",
-  "description": "A cross-modal oddball task dataset comprising EEG recordings from 146 participants (98 with Parkinson's disease, 48 controls) collected between 2017-2021. Participants performed a directional response task cued by visual arrows, preceded by synchronized visual and auditory pre-cues that varied between standard and oddball conditions. The dataset includes 64-channel EEG recordings and enables investigation of multimodal sensory processing and cognitive control mechanisms in both healthy and Parkinson's disease populations.",
-  "methods_description": "EEG data were recorded using a 64-channel BrainVision cap during a cross-modal oddball task. Each trial consisted of visual and auditory pre-cues presented simultaneously 500ms before a primary visual GO cue (white arrow) requiring directional response. Pre-cue conditions included both standard, oddball visual, or oddball auditory variants.",
+  "description": "A cross-modal oddball task EEG dataset comprising 146 subjects (98 with Parkinson's disease, 48 controls) collected between 2017-2021. Participants performed a directional response task cued by visual arrows, preceded by synchronized visual and auditory pre-cues that varied between standard and oddball conditions. The dataset includes 64-channel EEG recordings and enables investigation of multimodal sensory processing and cognitive control mechanisms in both healthy and neurodegenerative populations.",
+  "methods_description": "EEG data were recorded using a 64-channel BrainVision cap during a cross-modal oddball task. Each trial consisted of visual and auditory pre-cues presented simultaneously 500ms before a primary visual GO cue (white arrow) requiring directional response. Pre-cue conditions included both standard, oddball visual, or oddball auditory variants. Data collection occurred from 2017-2021.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
