@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Cross-modal Oddball Task.",
-  "description": "A cross-modal oddball task EEG dataset comprising 146 subjects (98 with Parkinson's disease, 48 controls) collected between 2017-2021. Participants performed a directional response task cued by visual arrows, preceded by synchronized visual and auditory pre-cues that varied between standard and oddball conditions. The dataset includes 64-channel EEG recordings and enables investigation of multimodal sensory processing and cognitive control mechanisms in both healthy and neurodegenerative populations.",
-  "methods_description": "EEG data were recorded using a 64-channel BrainVision cap during a cross-modal oddball task. Each trial consisted of visual and auditory pre-cues presented simultaneously 500ms before a primary visual GO cue (white arrow) requiring directional response. Pre-cue conditions included both standard, oddball visual, or oddball auditory variants. Data collection occurred from 2017-2021.",
+  "description": "This dataset contains EEG recordings from 146 subjects, including 98 individuals with Parkinson's disease and 48 controls, collected between 2017 and 2021. Participants performed a cross-modal oddball task involving a primary directional response cue preceded by visual and auditory pre-cues, designed to probe cognitive processing in Parkinson's disease. EEG data were recorded using a 64-channel BrainVision system.",
+  "methods_description": "EEG was recorded with a 64-channel BrainVision cap while subjects performed a cross-modal oddball task involving a primary GO cue (a directional arrow) preceded by simultaneous visual and auditory pre-cues (500ms prior), with standard or oddball variations in either modality.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,26 +19,25 @@
       "term": "EEG"
     },
     {
-      "term": "oddball task"
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "cross-modal processing"
-    },
-    {
-      "term": "Parkinson's disease"
-    },
-    {
-      "term": "event-related potentials"
+      "term": "oddball paradigm"
     },
     {
       "term": "cognitive control"
+    },
+    {
+      "term": "event-related potentials"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2022.07.26.22278079",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004574",
@@ -46,20 +45,17 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004574",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004574.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004574",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
-    {
-      "funder_name": "and NRSA F32 AG069445-01 to RC. All research protocols were approved by the University of Iowa"
-    },
     {
       "funder_name": " Human Subjects Review Board (IRB# 201707828)."
     },
@@ -73,7 +69,7 @@
     },
     {
       "funder_name": "NIH",
-      "award_number": "F32AG069445-01"
+      "award_number": "F32 AG069445-01"
     }
   ],
   "resource_type_specific": "Neuroimaging Dataset",
