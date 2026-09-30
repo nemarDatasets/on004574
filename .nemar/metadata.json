@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Cross-modal Oddball Task.",
-  "description": "This dataset contains EEG recordings from 146 subjects, including 98 individuals with Parkinson's disease and 48 controls, collected between 2017 and 2021. Participants performed a cross-modal oddball task involving a primary directional response cue preceded by visual and auditory pre-cues, designed to probe cognitive processing in Parkinson's disease. EEG data were recorded using a 64-channel BrainVision system.",
-  "methods_description": "EEG was recorded with a 64-channel BrainVision cap while subjects performed a cross-modal oddball task involving a primary GO cue (a directional arrow) preceded by simultaneous visual and auditory pre-cues (500ms prior), with standard or oddball variations in either modality.",
+  "description": "EEG dataset from 146 participants (98 with Parkinson's disease and 48 controls) performing a cross-modal oddball task collected between 2017 and 2021. Each trial presented simultaneous visual and auditory pre-cues, either standard or oddball, followed by a directional arrow GO cue requiring a response. The dataset supports investigation of midfrontal neural activity and cognitive dysfunction in Parkinson's disease.",
+  "methods_description": "EEG was recorded with a 64-channel BrainVision cap during an oddball task with a primary GO cue (white arrow) requiring a directional response. Visual and auditory pre-cues occurred simultaneously 500 ms before the arrow cue. Trials had standard pre-cues, an oddball visual pre-cue, or an oddball auditory pre-cue.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,20 +24,23 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "oddball paradigm"
+      "term": "oddball task"
     },
     {
-      "term": "cognitive control"
+      "term": "cross-modal"
     },
     {
-      "term": "event-related potentials"
+      "term": "cognitive dysfunction"
+    },
+    {
+      "term": "midfrontal activity"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2022.07.26.22278079",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004574",
@@ -78,7 +81,7 @@
     "eeg"
   ],
   "sizes": [
-    "14.5 GB (296 files)"
+    "13.47 GB (296 files)"
   ],
   "formats": [
     ".fdt",
